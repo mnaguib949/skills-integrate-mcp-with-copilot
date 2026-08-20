@@ -24,6 +24,20 @@ header {
   border-radius: 5px;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.header-content button {
+  flex-shrink: 0;
+  background-color: white;
+  color: #1a237e;
+}
+
 header h1 {
   margin-bottom: 10px;
 }
@@ -48,6 +62,10 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+}
+
+#login-container {
+  margin: 0 auto 30px;
 }
 
 section h3 {
